@@ -1,3 +1,5 @@
+// Sum of first n natural numbers
+
 #include <stdio.h>
 
 int main(){
@@ -8,7 +10,6 @@ int main(){
     for (i = 1; i <= n; i++) {
         sum += i;
     }
-
     printf("The sum of first %d natural numbers is: %d", n, sum);
     return 0;
 }
