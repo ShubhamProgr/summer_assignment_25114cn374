@@ -1,3 +1,5 @@
+// Printing prime numbers within a enterted range
+
 #include <stdio.h>
 
 int main() {
