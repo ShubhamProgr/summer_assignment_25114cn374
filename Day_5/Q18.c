@@ -26,4 +26,5 @@ int main(){
     else{
         printf("%d is not a strong number",original);  
     }
+    return 0;
 }
