@@ -73,7 +73,7 @@ void generate_marksheet() {
             int total = students[i].Physics + students[i].Chemistry + students[i].Maths;
             float average = total / 3.0;
             int cgpa = (average / 10);
-            printf("CGPA: %d\n", cgpa);`
+            printf("CGPA: %d\n", cgpa);
             printf("Total Marks: %d\n", total);
             printf("Average Marks: %.2f\n", average);
             return;
